@@ -1,5 +1,0 @@
-Donte.
-A: python list data structure.
-n: the length of A.
-
-Slicing is returning a copy of the range as a new seperate list (ege A[a:b]), since it is copying (and not shalow copy), not sure exactly how, but it processes the elements which are in the provided range. So A[a:b] processes around b - a elements, which has asymptotic time complexity of O(n).
